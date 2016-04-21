@@ -2,8 +2,10 @@ package br.univel;
 
 public class Cliente {
 
+	@Coluna(pk=true, nome="cadid")
 	private int id;
 	
+	@Coluna(nome = "cadnome", tamanho = 150)
 	private String nome;
 	
 	public Cliente(int id, String nome){
