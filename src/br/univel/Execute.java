@@ -7,14 +7,10 @@ public class Execute {
 	public Execute(){
 	
 		Cliente c = new Cliente(1, "Edson");
-		
-		
+			
 	}
 	
-	
-	
-	
-	
+		
 	public static void main(String[] args){
 		
 	}

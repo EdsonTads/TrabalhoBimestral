@@ -1,6 +1,7 @@
 package br.univel;
 
-public interface Tabela {
+public @interface Tabela {
 
+	String value() default "";
 	
 }

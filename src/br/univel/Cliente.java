@@ -1,11 +1,14 @@
 package br.univel;
 
+import br.univel.Coluna;
+import br.univel.Tabela;
+
 public class Cliente {
 
 	@Coluna(pk=true, nome="cadid")
 	private int id;
 	
-	@Coluna(nome = "cadnome", tamanho = 150)
+	@Coluna(nome="cadnome", tamanho=150)
 	private String nome;
 	
 	public Cliente(int id, String nome){
