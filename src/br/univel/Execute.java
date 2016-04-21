@@ -5,6 +5,9 @@ public class Execute {
 	private int cabecalho = 1;
 	
 	public Execute(){
+	
+		Cliente c = new Cliente(1, "Edson");
+		
 		
 	}
 	
