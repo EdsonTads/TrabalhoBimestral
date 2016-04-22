@@ -46,7 +46,4 @@ public class ExtSqlGen extends SqlGen{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
-	
 }
