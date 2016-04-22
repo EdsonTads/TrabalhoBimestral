@@ -1,7 +1,7 @@
 package br.univel;
 
+import Anotacoes.Tabela;
 import br.univel.Coluna;
-import br.univel.Tabela;
 
 public class Cliente {
 
