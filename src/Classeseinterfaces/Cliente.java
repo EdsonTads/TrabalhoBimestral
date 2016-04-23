@@ -17,6 +17,10 @@ public class Cliente {
 	
 	private Enum estadocivil;
 	
+	public  Cliente(){
+		this(0, null,  null, null,null);
+	}
+	
 //	Construtor do metodo cliente
 	
 	public Cliente(int id, String nome, String endereco, String telefone, Enum estadocivil){

@@ -14,6 +14,11 @@ public class Principal extends ExtSqlGen {
 		getSqlUpdateById(null,null);
 		getSqlDeleteById(null,null);
 		
+		Cliente c1 = new Cliente();
+		Cliente c2 = new Cliente();
+		Cliente c3 = new Cliente();
+		
+		
 		String strCreateTable = getCreateTable(null, Cliente.class);
 		System.out.println(strCreateTable);
 		
