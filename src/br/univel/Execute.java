@@ -4,15 +4,12 @@ import Classeseinterfaces.Cliente;
 
 public class Execute {
 
-	private int cabecalho = 1;
-	
 	public Execute(){
+
+		System.out.println("Construtor execute");		
 	
-		Cliente c = new Cliente(1, "Edson");
-			
 	}
 	
-		
 	public static void main(String[] args){
 		
 	}
