@@ -35,5 +35,4 @@ public class ImplDao implements Dao<Cliente, Integer>{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
 }

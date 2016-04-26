@@ -5,8 +5,7 @@ import Classeseinterfaces.Cliente;
 public class Execute {
 
 	public Execute(){
-
-		System.out.println("Construtor execute");		
+		System.out.println("Construtor execute");			
 	
 	}
 	
@@ -14,4 +13,3 @@ public class Execute {
 		
 	}
 }
-
